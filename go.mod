@@ -1,4 +1,4 @@
-module github.com/fahmcode/atmer
+module github.com/fahmaliyi/atmer
 
 go 1.23.4
 

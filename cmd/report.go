@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/fahmcode/atmer/internal/service"
-	"github.com/fahmcode/atmer/internal/utils"
+	"github.com/fahmaliyi/atmer/internal/service"
+	"github.com/fahmaliyi/atmer/internal/utils"
 	"github.com/spf13/cobra"
 )
 
