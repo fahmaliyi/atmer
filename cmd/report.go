@@ -3,6 +3,8 @@ package cmd
 import (
 	"fmt"
 	"os"
+	"path/filepath"
+	"strings"
 
 	"github.com/fahmaliyi/atmer/internal/service"
 	"github.com/fahmaliyi/atmer/internal/utils"
@@ -11,6 +13,8 @@ import (
 
 var (
 	excelpath string
+	noOffline bool
+	noOnline  bool
 )
 
 var reportCmd = &cobra.Command{
@@ -33,6 +37,10 @@ var reportCmd = &cobra.Command{
 				status = "OnlyADSL"
 			}
 
+			if noOnline && status == "Online" {
+				continue // Skip offline machines if --no-offline is set
+			}
+
 			fmt.Printf("- %s (%s) → %s\n", m.Name, m.IP, status)
 
 			results = append(results, service.PingResult{
@@ -43,18 +51,40 @@ var reportCmd = &cobra.Command{
 		}
 
 		output, _ := cmd.Flags().GetString("output")
-		err = utils.WriteResults(results, output)
+
+		ext := strings.ToLower(filepath.Ext(output))
+		var format string
+
+		switch ext {
+		case ".json":
+			format = "json"
+		case ".csv":
+			format = "csv"
+		case ".xlsx", ".xls":
+			format = "xlsx"
+		default:
+			format = "txt"
+		}
+
+		if format == "" {
+			fmt.Printf("⚠️ Unknown output format for extension '%s'. Defaulting to txt.\n", ext)
+			format = "txt"
+		}
+
+		err = utils.WriteResults(results, output, format, noOffline)
 		if err != nil {
 			fmt.Println("❌ Error writing results:", err)
 		} else {
 			fmt.Println("✅ Results written to", output)
 		}
-
 	},
 }
 
 func init() {
 	rootCmd.AddCommand(reportCmd)
 	reportCmd.Flags().StringP("output", "o", "ping_results.txt", "Output file")
+	reportCmd.Flags().StringP("format", "f", "txt", "Output format: txt, json, csv, xlsx")
 	reportCmd.Flags().StringVarP(&excelpath, "path", "p", "atms.xlsx", "Path to Excel file")
+	reportCmd.Flags().BoolVar(&noOffline, "no-offline", false, "Exclude offline ATMs from report")
+	reportCmd.Flags().BoolVar(&noOnline, "no-online", false, "Exclude online ATMs from report")
 }
