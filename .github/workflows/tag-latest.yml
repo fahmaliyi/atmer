@@ -1,0 +1,22 @@
+name: Update `latest` tag
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  update-latest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Needed to move tags
+
+      - name: Push latest tag
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git tag -f latest
+          git push origin -f latest
