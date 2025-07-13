@@ -44,7 +44,32 @@ func LoadMachines(path string) ([]service.Machine, error) {
 	return machines, nil
 }
 
+func SaveMachines(machines []service.Machine, path string) error {
+	f := excelize.NewFile()
+	sheet := f.GetSheetName(0)
+
+	f.SetCellValue(sheet, "A1", "Name")
+	f.SetCellValue(sheet, "B1", "IP")
+
+	for i, m := range machines {
+		row := i + 2
+		f.SetCellValue(sheet, fmt.Sprintf("A%d", row), m.Name)
+		f.SetCellValue(sheet, fmt.Sprintf("B%d", row), m.IP)
+	}
+
+	return f.SaveAs(path)
+}
+
 func WriteResults(results []service.PingResult, output, format string, excludeOffline bool) error {
+	// Delete existing file if it exists
+	if _, err := os.Stat(output); err == nil {
+		err = os.Remove(output)
+		if err != nil {
+			return fmt.Errorf("failed to delete existing output file: %w", err)
+		}
+	}
+
+	// Proceed to write new file
 	switch format {
 	case "json":
 		return writeJSON(results, output, excludeOffline)

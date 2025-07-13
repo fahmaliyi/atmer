@@ -8,6 +8,7 @@ import (
 
 	"github.com/fahmaliyi/atmer/internal/service"
 	"github.com/fahmaliyi/atmer/internal/utils"
+	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 )
 
@@ -21,6 +22,11 @@ var reportCmd = &cobra.Command{
 	Use:   "report",
 	Short: "Generate ATM connectivity report from Excel file",
 	Run: func(cmd *cobra.Command, args []string) {
+		// Define colors
+		red := color.New(color.FgRed).SprintFunc()
+		green := color.New(color.FgGreen).SprintFunc()
+		yellow := color.New(color.FgYellow).SprintFunc()
+
 		machines, err := utils.LoadMachines(excelpath)
 		if err != nil {
 			fmt.Println("❌ Failed to load:", err)
@@ -28,6 +34,7 @@ var reportCmd = &cobra.Command{
 		}
 
 		var results []service.PingResult
+		var onlineCount, adslCount, offlineCount int
 
 		for _, m := range machines {
 			status := "Offline"
@@ -38,10 +45,23 @@ var reportCmd = &cobra.Command{
 			}
 
 			if noOnline && status == "Online" {
-				continue // Skip offline machines if --no-offline is set
+				continue
 			}
 
-			fmt.Printf("- %s (%s) → %s\n", m.Name, m.IP, status)
+			var coloredStatus string
+			switch status {
+			case "Online":
+				coloredStatus = green(status)
+				onlineCount++
+			case "OnlyADSL":
+				coloredStatus = yellow(status)
+				adslCount++
+			case "Offline":
+				coloredStatus = red(status)
+				offlineCount++
+			}
+
+			fmt.Printf("- %s (%s) → %s\n", m.Name, m.IP, coloredStatus)
 
 			results = append(results, service.PingResult{
 				Name:   m.Name,
@@ -49,6 +69,12 @@ var reportCmd = &cobra.Command{
 				Status: status,
 			})
 		}
+
+		// Summary
+		fmt.Println("\nSummary:")
+		fmt.Printf("🟢 Online: %s\n", green(onlineCount))
+		fmt.Printf("🟡 OnlyADSL: %s\n", yellow(adslCount))
+		fmt.Printf("🔴 Offline: %s\n\n", red(offlineCount))
 
 		output, _ := cmd.Flags().GetString("output")
 
