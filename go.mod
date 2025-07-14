@@ -3,12 +3,14 @@ module github.com/fahmaliyi/atmer
 go 1.23.4
 
 require (
+	github.com/fatih/color v1.18.0
+	github.com/lithammer/fuzzysearch v1.1.8
 	github.com/spf13/cobra v1.9.1
+	github.com/tealeg/xlsx/v3 v3.3.13
 	github.com/xuri/excelize/v2 v2.9.1
 )
 
 require (
-	github.com/fatih/color v1.18.0 // indirect
 	github.com/frankban/quicktest v1.14.6 // indirect
 	github.com/google/btree v1.0.0 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
@@ -24,7 +26,6 @@ require (
 	github.com/rogpeppe/go-internal v1.9.0 // indirect
 	github.com/shabbyrobe/xmlwriter v0.0.0-20200208144257-9fca06d00ffa // indirect
 	github.com/spf13/pflag v1.0.6 // indirect
-	github.com/tealeg/xlsx/v3 v3.3.13 // indirect
 	github.com/tiendc/go-deepcopy v1.6.0 // indirect
 	github.com/xuri/efp v0.0.1 // indirect
 	github.com/xuri/nfp v0.0.1 // indirect
