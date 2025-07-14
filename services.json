@@ -1,0 +1,3571 @@
+[
+  {
+    "location": "HQ-Kazanchis- DATA VPN",
+    "wan_ip": "10.131.172.244/29",
+    "lan_ip": "10.1.0.0/16",
+    "Column4": "VPN",
+    "bandwidth": "100Mbps",
+    "line_type": "Fiber",
+    "service_number": 9990003201,
+    "account_number": 2912129
+  },
+  {
+    "location": "HQ-Wireless DATA",
+    "wan_ip": "10.131.244.98/29",
+    "lan_ip": "10.131.244.102/29",
+    "Column4": "AeroNet",
+    "bandwidth": "12mbps",
+    "line_type": "AeroNet",
+    "service_number": 988899000515
+  },
+  {
+    "location": "HQ SMS VPN",
+    "wan_ip": " 10.131.172.232/29 ",
+    "lan_ip": "10.1.0.0/16",
+    "Column4": "VPN",
+    "bandwidth": "9Mbps",
+    "line_type": "Fiber",
+    "service_number": 990999197,
+    "account_number": 2912129
+  },
+  {
+    "location": "Zemen-National Bank VPN",
+    "wan_ip": "10.131.194.32/29",
+    "lan_ip": "172.16.8.0/24",
+    "Column4": "VPN-NBE",
+    "bandwidth": "10Mbps",
+    "line_type": "Fiber",
+    "service_number": 21100954782,
+    "account_number": 2912129
+  },
+  {
+    "location": "Kazanchis -L2-HQ",
+    "wan_ip": "L-2",
+    "lan_ip": "10.1.1.128/27",
+    "Column4": "L2-",
+    "bandwidth": "12 mbps",
+    "line_type": "fiber",
+    "service_number": 19100891360,
+    "account_number": "terminate"
+  },
+  {
+    "location": "Wireless DATA NB",
+    "wan_ip": "10.131.148.230/29",
+    "lan_ip": "10.131.148.226/29",
+    "Column4": "AeroNet",
+    "bandwidth": "6mbps",
+    "line_type": "AeroNet",
+    "service_number": 999444777888
+  },
+  {
+    "location": "Zemen-ECX VPN",
+    "wan_ip": "10.131.146.192/29",
+    "lan_ip": "172.24.23.1/24",
+    "Column4": "VPN",
+    "bandwidth": "5Mbps",
+    "line_type": "ADSL",
+    "service_number": 17100299177,
+    "account_number": 2912129
+  },
+  {
+    "location": "VISA Card (by CMC networks)",
+    "wan_ip": "10.131.252.12/29",
+    "Column4": "MPLS",
+    "bandwidth": "2mbps",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Master Card (by Liquid telecom)",
+    "wan_ip": "10.131.154.4/29",
+    "Column4": "MPLS",
+    "bandwidth": "1Mbps",
+    "line_type": "Fiber",
+    "account_number": 2912129
+  },
+  {
+    "location": "Zemen-Derash-INSA (e-tax)",
+    "wan_ip": "10.131.141.108/29",
+    "lan_ip": "172.16.10.16/29",
+    "Column4": "VPN",
+    "bandwidth": "1mbps",
+    "line_type": "ADSL",
+    "service_number": 45100227615,
+    "account_number": 2912129
+  },
+  {
+    "location": "Zemen-ETHSwitch-VPN",
+    "wan_ip": "10.131.155.110/29",
+    "lan_ip": "172.16.10.38/29",
+    "Column4": "VPN",
+    "bandwidth": "5mbps",
+    "line_type": "Fiber",
+    "service_number": 49100631079,
+    "account_number": 2912129
+  },
+  {
+    "location": "InterContinetal Hotel WiFi",
+    "wan_ip": "10.131.23.51/29",
+    "Column4": "Internet",
+    "bandwidth": "2mbps",
+    "line_type": "Copper",
+    "service_number": 95100849316
+  },
+  {
+    "location": "Head Office Internet"
+  },
+  {
+    "location": "Internet",
+    "wan_ip": "10.131.70.170/30",
+    "lan_ip": "10.1.0.0/16",
+    "Column4": "BB internet",
+    "bandwidth": "150Mbps",
+    "line_type": "Fiber",
+    "service_number": "33100954434   VLANID-1427",
+    "account_number": 2912129
+  },
+  {
+    "location": "Wireless Internet ",
+    "wan_ip": "10.131.244.106/29",
+    "lan_ip": "10.131.244.110/29",
+    "Column4": "AeroNet",
+    "bandwidth": "12mbps",
+    "line_type": "AeroNet",
+    "service_number": 988899000514
+  },
+  {
+    "location": "Internet for WIFI",
+    "wan_ip": " 196.188.72.178/19",
+    "lan_ip": "192.168.1.0/24",
+    "Column4": "VPN",
+    "bandwidth": "5Mbps",
+    "line_type": "Fiber",
+    "service_number": 9990027546,
+    "account_number": 2912129
+  },
+  {
+    "location": "DR VPN",
+    "wan_ip": "10.129.243.44/29",
+    "lan_ip": "10.2.11.0/24, 10.2.254.0/24\u1363 10.2.252.0/24",
+    "Column4": "VPN",
+    "bandwidth": "100mbps",
+    "line_type": "fiber",
+    "service_number": 990001923123
+  },
+  {
+    "location": "L2-DR",
+    "wan_ip": "10.129.243.36/29",
+    "lan_ip": "10.1.128/27",
+    "Column4": "VPN",
+    "bandwidth": "12mbps",
+    "line_type": "fiber",
+    "service_number": 88100669548
+  },
+  {
+    "location": "Bole Branch",
+    "wan_ip": "10.130.210.200/29",
+    "lan_ip": "10.2.2.0/24, 10.2.12.0/24",
+    "Column4": "VPN",
+    "bandwidth": "25Mbps",
+    "line_type": "Fiber",
+    "service_number": 9990035153,
+    "account_number": 2912129
+  },
+  {
+    "location": "L2-Bole",
+    "wan_ip": "L-2",
+    "lan_ip": "10.1.1.128/27",
+    "Column4": "VPN",
+    "bandwidth": "12mbps",
+    "line_type": "fiber",
+    "service_number": 20100891361,
+    "account_number": "Terminet"
+  },
+  {
+    "location": "Wireless DATA DR Bole",
+    "wan_ip": "10.131.131.1/29",
+    "lan_ip": "10.131.131.6/29",
+    "Column4": "AeroNet",
+    "line_type": "AeroNet",
+    "service_number": 989872149161
+  },
+  {
+    "location": "Bole Internet VPN",
+    "wan_ip": "196.188.0.1/16",
+    "lan_ip": "196.188.0.140/16",
+    "Column4": "VPN",
+    "bandwidth": "10MG",
+    "line_type": "VPN",
+    "service_number": 84100182914
+  },
+  {
+    "location": "BOLE WiFi Internet ",
+    "wan_ip": "10.130.110.250/29",
+    "service_number": 17100278457
+  },
+  {
+    "location": "BGBC New Branch",
+    "wan_ip": "10.129.230.116/29",
+    "lan_ip": "10.1.192.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 58100006038
+  },
+  {
+    "location": "4 Kilo Branch",
+    "wan_ip": "10.133.206.92/29",
+    "lan_ip": "10.1.193.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 32100666882
+  },
+  {
+    "location": "Wossen Branch",
+    "wan_ip": "10.150.147.108/29",
+    "lan_ip": "10.1.194.0/24",
+    "Column4": "VPN",
+    "bandwidth": "15mbps",
+    "line_type": "Fiber",
+    "service_number": 29100690459
+  },
+  {
+    "location": "Tikur Anbesa Area BC ",
+    "wan_ip": "10.131.158.164/29",
+    "lan_ip": "10.1.195.0/24",
+    "Column4": "VPN",
+    "bandwidth": "15Mbps",
+    "line_type": "Fiber",
+    "service_number": 27100690457
+  },
+  {
+    "location": "Kality BC ",
+    "wan_ip": "10.151.240.225/29",
+    "lan_ip": "10.1.196.0/24",
+    "Column4": "VPN",
+    "bandwidth": "15Mbps",
+    "line_type": "Fiber",
+    "service_number": 31100690461
+  },
+  {
+    "location": "Lideta BC",
+    "wan_ip": "10.131.159.12/29",
+    "lan_ip": "10.1.197.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8 mbps",
+    "line_type": "Fiber",
+    "service_number": 99100711589
+  },
+  {
+    "location": "Urael",
+    "wan_ip": "10.131.161.96/29",
+    "lan_ip": "10.1.197.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8 mbps",
+    "line_type": "Fiber",
+    "service_number": 98100711588
+  },
+  {
+    "location": "Ayat Adebabay BC",
+    "wan_ip": "10.150.225.136/29",
+    "lan_ip": "10.1.197.128/26",
+    "Column4": "VPN",
+    "bandwidth": "15 mbps",
+    "line_type": "Fiber",
+    "service_number": 85100776105
+  },
+  {
+    "location": "Jigjiga BC ",
+    "wan_ip": "10.148.208.88/29",
+    "lan_ip": "10.1.197.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8 mbps",
+    "line_type": "Fiber",
+    "service_number": 86100782856
+  },
+  {
+    "location": "Injibara BC ",
+    "wan_ip": "10.135.234.188 /29 10.143.223.188/29 ",
+    "lan_ip": "10.1.198.0/26",
+    "Column4": "VPN",
+    "bandwidth": "12 mbps",
+    "line_type": "ADSL",
+    "service_number": 84100782854,
+    "account_number": "251 58 227 11 31"
+  },
+  {
+    "location": "Gofa Mebrat Hail ",
+    "wan_ip": "10.153.218.212/29",
+    "lan_ip": "10.1.198.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8 mbps",
+    "line_type": "Fiber",
+    "service_number": 87100776107
+  },
+  {
+    "location": "Atlas Area BC",
+    "wan_ip": "10.130.204.196/29",
+    "lan_ip": "10.1.198.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8 mbps",
+    "line_type": "FIber",
+    "service_number": 10100828440
+  },
+  {
+    "location": "Debre Markos BC",
+    "wan_ip": "10.143.222.36/29",
+    "lan_ip": "10.1.198.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8 mbps",
+    "line_type": "ADSL",
+    "service_number": 80100782850
+  },
+  {
+    "location": "Genet",
+    "wan_ip": "10.131.166.84/29",
+    "lan_ip": "10.1.199.0/26",
+    "Column4": "VPN",
+    "bandwidth": "15mbps",
+    "line_type": "Fiber",
+    "service_number": 37100873558
+  },
+  {
+    "location": "Ayat Tafo BC",
+    "wan_ip": "10.150.227.28/29",
+    "lan_ip": "10.1.199.64/26",
+    "Column4": "VPN",
+    "bandwidth": "15mbps",
+    "line_type": "Fiber",
+    "service_number": 39100873560
+  },
+  {
+    "location": "Gerji-Mebrat BC",
+    "wan_ip": "10.150.196.236/29",
+    "lan_ip": "10.1.199.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8mbps",
+    "line_type": "Fiber",
+    "service_number": 59100968550
+  },
+  {
+    "location": "Hosaena BC",
+    "wan_ip": "10.146.182.20/29",
+    "lan_ip": "10.1.199.192/26"
+  },
+  {
+    "location": "ICS ATM",
+    "wan_ip": "10.129.194.124/29",
+    "lan_ip": "10.1.200.0/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 990002326,
+    "account_number": 2912129
+  },
+  {
+    "location": "Free IP",
+    "lan_ip": "10.1.200.16/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": "-",
+    "account_number": 2912129
+  },
+  {
+    "location": "Adams pavilion",
+    "wan_ip": "10.129.193.25/29",
+    "lan_ip": "10.1.200.32/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": "9990060815\u00a0",
+    "account_number": 17952771
+  },
+  {
+    "location": "DH GEDA ATM",
+    "wan_ip": "10.130.192.249/29",
+    "lan_ip": "10.1.200.48/28",
+    "Column4": "VPN",
+    "bandwidth": "256kbps",
+    "line_type": "ADSL",
+    "service_number": 990040055,
+    "account_number": 2912129
+  },
+  {
+    "location": "Hyatt Regency",
+    "wan_ip": "10.131.134.12/29",
+    "lan_ip": "10.1.200.64/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 42100159352
+  },
+  {
+    "location": "Wabishebele kiosk",
+    "wan_ip": "10.131.196.121/29",
+    "lan_ip": "10.1.200.80/28",
+    "Column4": "VPN",
+    "bandwidth": "256kbps",
+    "line_type": "ADSL",
+    "service_number": 990040056,
+    "account_number": 2912129
+  },
+  {
+    "location": "Jambo ATM",
+    "wan_ip": "10.130.195.124/29",
+    "lan_ip": "10.1.200.96/28",
+    "Column4": "VPN",
+    "bandwidth": "256kbps",
+    "line_type": "ADSL",
+    "service_number": 99099951,
+    "account_number": 2912129
+  },
+  {
+    "location": "Holly city ATM",
+    "wan_ip": "10.150.192.241/29",
+    "lan_ip": "10.1.200.112/28",
+    "Column4": "VPN",
+    "bandwidth": "256kbps",
+    "line_type": "Fiber",
+    "service_number": 99099936,
+    "account_number": 2912129
+  },
+  {
+    "location": "Hawasa Atote (arround Bus station)",
+    "wan_ip": "10.138.198.120/29",
+    "lan_ip": " 10.1.200.128/28",
+    "Column4": "VPN",
+    "bandwidth": "3MB",
+    "line_type": "Fiber",
+    "service_number": 94100160214
+  },
+  {
+    "location": "Eyomer Hotel POS",
+    "wan_ip": "10.130.239.212/29",
+    "lan_ip": "10.1.200.144/28",
+    "Column4": "VPN",
+    "bandwidth": "1mbps",
+    "line_type": "ADSL",
+    "service_number": 62100619572,
+    "account_number": 2912129
+  },
+  {
+    "location": "Zeway kiosk",
+    "wan_ip": "10.137.193.41/29",
+    "lan_ip": "10.1.200.160/28",
+    "Column4": "VPN",
+    "bandwidth": "1MG ",
+    "line_type": "Fiber",
+    "service_number": 990999127,
+    "account_number": 2912129
+  },
+  {
+    "location": "Hilton ATM",
+    "wan_ip": "10.131.198.81/29",
+    "lan_ip": "10.1.200.176/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 990999296,
+    "account_number": 2912129
+  },
+  {
+    "location": "Lafto-Bisrate Gebriael",
+    "wan_ip": "10.129.195.177/29",
+    "lan_ip": "10.1.200.192/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 990999766,
+    "account_number": 2912129
+  },
+  {
+    "location": "Zemen-Dashen",
+    "wan_ip": "10.153.195.56/29",
+    "lan_ip": "10.1.200.208/28",
+    "Column4": "VPN",
+    "bandwidth": "256kbps",
+    "line_type": "ADSL",
+    "service_number": 9990008084,
+    "account_number": 2912129
+  },
+  {
+    "location": "US embassy,ATM",
+    "wan_ip": "10.149.193.161/29",
+    "lan_ip": "10.1.200.224/28",
+    "Column4": "VPN",
+    "bandwidth": "256kbps",
+    "line_type": "ADSL",
+    "service_number": 9990009458,
+    "account_number": 2912129
+  },
+  {
+    "location": "Sweden Embassy",
+    "wan_ip": "10.131.228.98/29",
+    "lan_ip": "10.1.200.240/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990082236
+  },
+  {
+    "location": "Radisson blu",
+    "wan_ip": "10.131.202.49/29",
+    "lan_ip": "10.1.201.16/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990011242,
+    "account_number": 2912129
+  },
+  {
+    "location": "Electro-commercial",
+    "wan_ip": "10.131.142.12/29",
+    "lan_ip": "10.1.201.32/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 97100211827
+  },
+  {
+    "location": "Desalegn hotel",
+    "wan_ip": "10.130.199.105/29",
+    "lan_ip": "10.1.201.48/28",
+    "Column4": "VPN",
+    "bandwidth": "256kbps",
+    "line_type": "ADSL",
+    "service_number": 9990011867,
+    "account_number": 2912129
+  },
+  {
+    "location": "Addis view hotel ATM",
+    "wan_ip": "10.149.194.84/29",
+    "lan_ip": "10.1.201.64/28",
+    "Column4": "VPN",
+    "bandwidth": "5Mbs",
+    "line_type": "Fiber",
+    "service_number": 9990013398,
+    "account_number": 2912129
+  },
+  {
+    "location": "Nexious hotel ATM",
+    "wan_ip": "10.150.195.73/29",
+    "lan_ip": "10.1.201.80/28",
+    "Column4": "VPN",
+    "bandwidth": "256kbps",
+    "line_type": "ADSL",
+    "service_number": 9990013463,
+    "account_number": 2912129
+  },
+  {
+    "location": "HUB Hotel ATM",
+    "wan_ip": "?????",
+    "lan_ip": "10.1.201.96/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 77100222157
+  },
+  {
+    "location": "Safeway Atlas  ATM",
+    "wan_ip": "10.130.238.188/29",
+    "lan_ip": "10.1.201.112/28",
+    "Column4": "VPN",
+    "bandwidth": "1MBps",
+    "line_type": "ADSL",
+    "service_number": 35100039565
+  },
+  {
+    "location": "British embassy ATM",
+    "wan_ip": "10.130.202.138/29",
+    "lan_ip": "10.1.201.128/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990021056,
+    "account_number": 2912129
+  },
+  {
+    "location": "Pyramid Hotel /DebreZeit/",
+    "wan_ip": "10.134.204.12/29",
+    "lan_ip": "10.1.201.144/28",
+    "Column4": "VPN",
+    "bandwidth": "512kps",
+    "line_type": "ADSL",
+    "service_number": 94100257994
+  },
+  {
+    "location": "Zefmesh building ATM",
+    "wan_ip": "10.130.205.49/29",
+    "lan_ip": "10.1.201.160/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990025647,
+    "account_number": 2912129
+  },
+  {
+    "location": "AYAT /Hill bottom/ ATM",
+    "wan_ip": "10.150.197.169/29",
+    "lan_ip": "10.1.201.176/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "AD5L",
+    "service_number": 9990022989,
+    "account_number": 2912129
+  },
+  {
+    "location": "Capital hotel ATM",
+    "wan_ip": "10.130.205.97/29",
+    "lan_ip": "10.1.201.192/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "AD5L",
+    "service_number": 9990025646,
+    "account_number": 2912129
+  },
+  {
+    "location": "Greek Club ATM ",
+    "wan_ip": "10.131.156.188/29",
+    "lan_ip": "10.1.201.208/28",
+    "Column4": "VPN",
+    "bandwidth": "1mbps",
+    "line_type": "ADSL",
+    "service_number": 33100666883,
+    "account_number": 2912129
+  },
+  {
+    "location": "Yod Abisinya ATM",
+    "wan_ip": "10.130.207.153/29",
+    "lan_ip": "10.1.201.224/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990029783,
+    "account_number": 2912129
+  },
+  {
+    "location": "Lebu (safeway)",
+    "wan_ip": "10.151.200.212/29",
+    "lan_ip": "10.1.201.240/28",
+    "Column4": "VPN",
+    "line_type": "GOPN",
+    "service_number": 9990032597
+  },
+  {
+    "location": "Adama Branch",
+    "wan_ip": "10.141.205.57/29",
+    "lan_ip": "10.1.202.0./28",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": "33100057653 or 9990045119"
+  },
+  {
+    "location": "Robera coffee",
+    "wan_ip": "10.150.200.97/29",
+    "lan_ip": "10.1.202.16/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990042893,
+    "account_number": 2912129
+  },
+  {
+    "location": "Robel pizza",
+    "wan_ip": "10.130.213.89/29",
+    "lan_ip": "10.1.202.32/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990042891,
+    "account_number": 2912129
+  },
+  {
+    "location": "Bambis supermarket (Lewis)",
+    "wan_ip": "10.131.214.196/29",
+    "lan_ip": "10.1.202.48/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990045118,
+    "account_number": 2912129
+  },
+  {
+    "location": "Diredewa CU (Dechatu)",
+    "wan_ip": "10.139.228.60/29",
+    "lan_ip": "10.1.202.64/28",
+    "Column4": "VPN",
+    "bandwidth": "15mbps",
+    "line_type": "ADSL",
+    "service_number": 54100234464,
+    "account_number": 2912130
+  },
+  {
+    "location": "SAN Building",
+    "wan_ip": "10.129.203.17/29",
+    "lan_ip": "10.1.202.80/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": "SNAP",
+    "account_number": 2912129
+  },
+  {
+    "location": "Syionat Hotel",
+    "wan_ip": "10.130.216.65/29",
+    "lan_ip": "10.1.202.96/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990054846,
+    "account_number": 2912129
+  },
+  {
+    "location": "Abysinia mall ",
+    "wan_ip": "10.130.220.169/29",
+    "lan_ip": "10.1.202.128/28",
+    "Column4": "VPN",
+    "bandwidth": "1MG",
+    "line_type": "ADSL",
+    "service_number": 9990072004,
+    "account_number": 2912129
+  },
+  {
+    "location": "Axum Hotel/mekele/",
+    "wan_ip": "10.136.210.72/29",
+    "lan_ip": "10.1.202.160/28",
+    "Column4": "VPN",
+    "bandwidth": "2Mbps",
+    "line_type": "ADSL",
+    "service_number": 9990060098,
+    "account_number": 2912129
+  },
+  {
+    "location": "Afarancies International Hotel",
+    "wan_ip": "10.130.224.105/29",
+    "lan_ip": "10.1.202.176/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990080086,
+    "account_number": 2912129
+  },
+  {
+    "location": "Dil betigil Gebeya Maekel",
+    "wan_ip": "10.133.217.105/29",
+    "lan_ip": "10.1.202.192/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990092059
+  },
+  {
+    "location": "Jupiter Hotel",
+    "wan_ip": "10.131.229.100/29",
+    "lan_ip": "10.1.202.224/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990085115
+  },
+  {
+    "location": "Furi Branch",
+    "wan_ip": "10.129.150.217/29",
+    "lan_ip": "10.1.202.240/28",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber",
+    "service_number": 89101456750
+  },
+  {
+    "location": "Momona Hotel",
+    "wan_ip": "10.130.228.90/29",
+    "lan_ip": "10.1.203.0/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990089255
+  },
+  {
+    "location": "International Livestock  Research Institute(ILRI)",
+    "wan_ip": "10.150.205.116/29",
+    "lan_ip": "10.1.203.16/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990088939
+  },
+  {
+    "location": "AG  Hotel/Gonder/",
+    "wan_ip": "10.142.201.25/29",
+    "lan_ip": "10.1.203.32/28",
+    "Column4": "VPN",
+    "bandwidth": "2MG",
+    "line_type": "Fiber",
+    "service_number": 9990091657
+  },
+  {
+    "location": "Planet Hotel/Mekele/",
+    "wan_ip": "10.136.218.33/29",
+    "lan_ip": "10.1.203.48/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990092058
+  },
+  {
+    "location": "Humera  CU",
+    "wan_ip": "10.142.217.84/29",
+    "lan_ip": "10.1.203.80/28",
+    "Column4": "VPN",
+    "bandwidth": "2MB",
+    "line_type": "ADSL",
+    "service_number": 9990096495
+  },
+  {
+    "location": "Rim 7/Esayas/Safeway CMC/",
+    "wan_ip": "10.150.229.28/29",
+    "lan_ip": "10.1.203.96/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990106928
+  },
+  {
+    "location": "Marriot Hotel",
+    "wan_ip": "10.131.234.10/29",
+    "lan_ip": "10.1.203.112/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbs",
+    "line_type": "ADSL",
+    "service_number": 9990106539
+  },
+  {
+    "location": "SNAP Bld ATM",
+    "wan_ip": "10.130.193.138/29",
+    "lan_ip": "10.1.203.128/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 9990108625,
+    "account_number": "termintated SN"
+  },
+  {
+    "location": "Golden  Tulip Hotel",
+    "wan_ip": "10.130.183.4/29",
+    "lan_ip": "10.1.203.144/28",
+    "Column4": "VPN",
+    "bandwidth": "2mb",
+    "line_type": "Fiber/GPON",
+    "service_number": 988899001040
+  },
+  {
+    "location": "Ethiopian  Airport  Enterprisze",
+    "wan_ip": "10.130.232.130/29",
+    "lan_ip": "10.1.203.160/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 47100003817
+  },
+  {
+    "location": "Sarbet (Canada embassy/Hail )",
+    "wan_ip": "10.129.210.25/29",
+    "lan_ip": "10.1.203.176/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 58100006038
+  },
+  {
+    "location": "Tesfu mall  ATM",
+    "wan_ip": "10.150.208.61/29",
+    "lan_ip": "10.1.203.194/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 58100016628
+  },
+  {
+    "location": "Gofa-Mebrat-Archive",
+    "wan_ip": "10.153.219.4/29",
+    "lan_ip": "10.1.203.208/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 82100913653
+  },
+  {
+    "location": "Bell View Hotel ",
+    "wan_ip": "10.150.193.248/29",
+    "lan_ip": "10.1.203.224/28",
+    "Column4": "VPN",
+    "bandwidth": 512,
+    "line_type": "ADSL",
+    "service_number": 66100112216
+  },
+  {
+    "location": "Safeway /Gerji",
+    "wan_ip": "10.150.210.60",
+    "lan_ip": "10.1.203.240/28",
+    "Column4": "VPN",
+    "bandwidth": 512,
+    "line_type": "ADSL",
+    "service_number": 34100101314
+  },
+  {
+    "location": "CMC  Branch",
+    "wan_ip": "10.150.234.52/29",
+    "lan_ip": "10.1.204.0/24",
+    "Column4": "VPN",
+    "bandwidth": "15 MB",
+    "line_type": "Fiber",
+    "service_number": 9990102857
+  },
+  {
+    "location": "Arada Branch",
+    "wan_ip": "10.133.218.192/29",
+    "lan_ip": "10.1.205.0/24",
+    "Column4": "VPN",
+    "bandwidth": "15MB",
+    "line_type": "Fiber",
+    "service_number": 9990106540
+  },
+  {
+    "location": "Lafto Branch",
+    "wan_ip": "10.151.246.76/29",
+    "lan_ip": "10.1.206.0/26",
+    "bandwidth": "8 mbps",
+    "line_type": "Fiber",
+    "service_number": 54100987305
+  },
+  {
+    "location": "Arba Minch Branch",
+    "wan_ip": "10.146.182.196/29",
+    "lan_ip": "10.1.206.64/26",
+    "bandwidth": "8 mbps",
+    "line_type": "Fiber",
+    "service_number": 48101063369
+  },
+  {
+    "location": "Wolaita Sodo",
+    "wan_ip": "10.146.180.212/29",
+    "lan_ip": "10.1.206.128/26",
+    "bandwidth": "8 mbps",
+    "line_type": "Fiber",
+    "service_number": 70101074011
+  },
+  {
+    "location": "Ambassador /parliament  Sub branch",
+    "wan_ip": "10.133.197.204/29",
+    "lan_ip": "10.1.206.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8 mbps",
+    "line_type": "Fiber",
+    "service_number": 79101097510
+  },
+  {
+    "location": "Main-Branch Relocation",
+    "wan_ip": "10.131.163.204/29",
+    "lan_ip": "10.1.207.0 /24",
+    "bandwidth": "15 mbps",
+    "line_type": "Fiber",
+    "service_number": 44100797574
+  },
+  {
+    "location": "Main-Branch Relocation(BackUP-Line)",
+    "wan_ip": "10.131.166.20/29/29",
+    "lan_ip": "10.1.207.0 /24",
+    "bandwidth": "15 mbps",
+    "line_type": "Fiber",
+    "service_number": 16100883437
+  },
+  {
+    "location": "Hawassa/Alliance Gebeya Maikel/",
+    "wan_ip": "10.138.204.136/29",
+    "lan_ip": "10.1.208.0/24",
+    "Column4": "VPN",
+    "bandwidth": "15 mbps",
+    "line_type": "Fiber",
+    "service_number": 56100033956
+  },
+  {
+    "location": "Gotera Branch (Concord hotel)",
+    "wan_ip": "10.153.196.8/29",
+    "lan_ip": "10.1.209.0/24",
+    "Column4": "VPN",
+    "bandwidth": "15 mbps",
+    "line_type": "Fiber",
+    "service_number": 9990012065
+  },
+  {
+    "location": "Tor-Hailoch Branch",
+    "wan_ip": "10.129.240.228 /29",
+    "lan_ip": "10.1.210.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8 mbps",
+    "line_type": "Fiber",
+    "service_number": 80101097511
+  },
+  {
+    "location": "Mesalemya- Ehil berenda ",
+    "wan_ip": "10.128.250.100 /29",
+    "lan_ip": "10.1.210.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8 mbps",
+    "line_type": "Fiber",
+    "service_number": 82101097513
+  },
+  {
+    "location": "Ghion BC",
+    "wan_ip": "10.135.239.140 /29",
+    "lan_ip": "10.1.210.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8 mbps",
+    "line_type": "Fiber",
+    "service_number": 83101097514
+  },
+  {
+    "location": "Bahir Dar- Abay Mado ",
+    "wan_ip": "10.135.239.132 \\29",
+    "lan_ip": "10.1.210.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8 mbps",
+    "line_type": "Fiber",
+    "service_number": 84101097515
+  },
+  {
+    "location": "Bole Medhanialem Branch",
+    "wan_ip": "10.130.208.100/29",
+    "lan_ip": "10.1.211.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 74100041764
+  },
+  {
+    "location": "Intercontinental Hotel ATM",
+    "wan_ip": "10.131.241.130/29",
+    "lan_ip": "10.1.212.0/28",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 73100041763
+  },
+  {
+    "location": "Gondar ( fasil area) BC",
+    "wan_ip": "10.142.225.172 /29",
+    "lan_ip": "10.1.212.32/28",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "fiber",
+    "service_number": 47101326818,
+    "account_number": 1108
+  },
+  {
+    "location": "Sebeta BC",
+    "wan_ip": "10.239.171.220 / 29",
+    "lan_ip": "10.1.212.48/28",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "fiber",
+    "service_number": 71101330442
+  },
+  {
+    "location": "Afar -Logiya BC",
+    "wan_ip": "10.152.202.44/29",
+    "lan_ip": "10.1.212.80/28",
+    "bandwidth": "8MB",
+    "line_type": "fiber"
+  },
+  {
+    "location": "Assela BC",
+    "wan_ip": "10.141.180.100/29",
+    "lan_ip": "10.1.212.96/28",
+    "Column4": "8MB",
+    "bandwidth": "8MB",
+    "line_type": "Fiber",
+    "service_number": 21101439022
+  },
+  {
+    "location": "Mizan Aman BC",
+    "wan_ip": "10.145.71.220/29",
+    "lan_ip": "10.1.212.128/28",
+    "Column4": "VPN",
+    "bandwidth": 8,
+    "line_type": "fiber",
+    "service_number": 23101439024
+  },
+  {
+    "location": "Bishoftu Branch/debrezeit",
+    "wan_ip": "10.134.199.236/29",
+    "lan_ip": "10.1.213.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 29100051169
+  },
+  {
+    "location": "Adama Branch2",
+    "wan_ip": "10.141.222.204/29",
+    "lan_ip": "10.1.214.0/24",
+    "Column4": "VPN",
+    "bandwidth": "??????",
+    "line_type": "Fiber",
+    "service_number": 33100057653
+  },
+  {
+    "location": "Legetafo  ATM (Bless)",
+    "wan_ip": "10.150.213.9/29",
+    "lan_ip": "10.1.215.1/24",
+    "Column4": "VPN",
+    "bandwidth": "512kbps",
+    "line_type": "ADSL",
+    "service_number": 10100059880
+  },
+  {
+    "location": "Mekele  Branch 2",
+    "wan_ip": "??????",
+    "lan_ip": "10.1.216.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 75100063905
+  },
+  {
+    "location": "Shire Branch",
+    "wan_ip": "10.136.238.12/29",
+    "lan_ip": "10.1.217.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 42100091252
+  },
+  {
+    "location": "Wollo Sefer Branch",
+    "wan_ip": "10.131.252.138/29",
+    "lan_ip": "10.1.218.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 40100091250
+  },
+  {
+    "location": "Lebu Branch ",
+    "wan_ip": "10.151.222.92/29",
+    "lan_ip": "10.1.219.0/24",
+    "Column4": "        VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 16100109376
+  },
+  {
+    "location": "Jacros Branch",
+    "wan_ip": "10.150.214.168/29",
+    "lan_ip": "10.1.220.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 72100118102
+  },
+  {
+    "location": "Ziway  New Branch ",
+    "wan_ip": "10.137.208.252/29",
+    "lan_ip": "10.1.221.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 17100107397
+  },
+  {
+    "location": "Debre Birhan",
+    "wan_ip": "10.130.218.193/29",
+    "lan_ip": "10.1.222.0/24",
+    "Column4": "VPN",
+    "bandwidth": 512,
+    "line_type": "Fiber",
+    "service_number": 59100132669
+  },
+  {
+    "location": "Meskel Flower Branch",
+    "wan_ip": "10.153.211.136/29",
+    "lan_ip": "10.1.223.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 58100132668
+  },
+  {
+    "location": "Diamond hotel",
+    "wan_ip": "10.130.197.244/29",
+    "lan_ip": "10.1.224.16/30",
+    "Column4": "VPN",
+    "bandwidth": 512,
+    "line_type": "ADSL",
+    "service_number": 98100135768
+  },
+  {
+    "location": "Best Western Hotel ATM",
+    "wan_ip": "10.130.228.166/29",
+    "lan_ip": "10.1.224.24/30",
+    "Column4": "VPN",
+    "bandwidth": 512,
+    "line_type": "ADSL",
+    "service_number": 47100169707
+  },
+  {
+    "location": "Sapphire Addis Hotel ",
+    "wan_ip": "10.130.228.244/29",
+    "lan_ip": "10.1.224.28/30",
+    "Column4": "VPN",
+    "bandwidth": 512,
+    "line_type": "ADSL",
+    "service_number": 45100169705
+  },
+  {
+    "location": "Saro-Maria ATM",
+    "wan_ip": "10.130.226.65/29",
+    "lan_ip": "10.1.224.32/30",
+    "Column4": "VPN",
+    "bandwidth": "1 mbps",
+    "line_type": "ADSL",
+    "service_number": 45100269285
+  },
+  {
+    "location": "Yatu ATM",
+    "wan_ip": "10.134.204.252/29",
+    "lan_ip": "10.1.224.36/30",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 40100537560
+  },
+  {
+    "location": "Best Western Hotel 2 ATM",
+    "wan_ip": "10.130.205.12/29",
+    "lan_ip": "10.1.224.40/30",
+    "Column4": "VPN",
+    "bandwidth": "1024 kbps",
+    "line_type": "ADSL",
+    "service_number": 56100630816
+  },
+  {
+    "location": "GARA Mart ATM",
+    "wan_ip": "10.151.237.92/29",
+    "lan_ip": "10.1.224.44/30",
+    "Column4": "VPN",
+    "bandwidth": "1MG",
+    "line_type": "ADSL",
+    "service_number": 52100630812
+  },
+  {
+    "location": "Bole Ambassador Hotel ATM",
+    "wan_ip": "10.130.200.108/29",
+    "lan_ip": "10.1.224.48/30",
+    "Column4": "VPN",
+    "bandwidth": "1024kbps",
+    "line_type": "ADSL",
+    "service_number": 55100630815
+  },
+  {
+    "location": "Tropical Mall Bole Area ATM",
+    "wan_ip": "10.130.223.84/29",
+    "lan_ip": "10.1.224.52/30",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 58100630818
+  },
+  {
+    "location": "Amran Hotel ATM",
+    "wan_ip": "10.131.155.84/29",
+    "lan_ip": "10.1.224.56/30",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 53100630813
+  },
+  {
+    "location": "Haile resort (ADAMA) ATM",
+    "wan_ip": "10.141.205.148/29 ",
+    "lan_ip": "10.1.224.60/30",
+    "Column4": "VPN",
+    "bandwidth": "1mbps",
+    "line_type": "ADSL",
+    "service_number": 57100656287
+  },
+  {
+    "location": "Tulip INN Hotel ATM",
+    "wan_ip": "10.153.217.20/29",
+    "lan_ip": "10.1.224.64/30",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 59100656289
+  },
+  {
+    "location": "Karamara Hote ATM",
+    "wan_ip": "10.139.233.27/29",
+    "lan_ip": "10.1.224.68/30",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 60100656290
+  },
+  {
+    "location": "European Union office  ATM",
+    "wan_ip": "10.130.240.28/29",
+    "lan_ip": "10.1.224.72/30",
+    "Column4": "VPN",
+    "bandwidth": "1Mbps",
+    "line_type": "ADSL",
+    "service_number": 13100662183
+  },
+  {
+    "location": "Grand palace",
+    "wan_ip": "10.131.159.144/29",
+    "lan_ip": "10.1.224.76/30",
+    "line_type": "ADSL",
+    "service_number": 86100703206
+  },
+  {
+    "location": "Sidra Intr Hotel ATM",
+    "wan_ip": "10.130.251.180/29",
+    "lan_ip": "10.1.224.80/30",
+    "bandwidth": "3 mbps",
+    "line_type": "ADSL",
+    "service_number": 97100711587
+  },
+  {
+    "location": "Sanford International School",
+    "wan_ip": "10.149.207.152/29",
+    "lan_ip": "10.1.224.84/30",
+    "bandwidth": "3mbps",
+    "line_type": "ADSL",
+    "service_number": 19100793679
+  },
+  {
+    "location": "Hawassa -Haile resort ATM",
+    "wan_ip": "10.138.217.128/29",
+    "lan_ip": "10.1.224.88/30",
+    "bandwidth": "1Mbps",
+    "line_type": "ADSL",
+    "service_number": 10100802760
+  },
+  {
+    "location": "Hallelujah Hospital ATM",
+    "wan_ip": "10.153.218.148/29",
+    "lan_ip": "10.1.224.92/30",
+    "bandwidth": "2Mbps",
+    "line_type": "ADSL",
+    "service_number": 12100849323
+  },
+  {
+    "location": "Gerji-sunshine",
+    "wan_ip": "10.130.178.140/29",
+    "lan_ip": "10.1.225.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG ",
+    "line_type": "Fiber",
+    "service_number": 71100140061
+  },
+  {
+    "location": "Shalla area Branch",
+    "wan_ip": "10.130.219.20/29",
+    "lan_ip": "10.1.226.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 14100147114
+  },
+  {
+    "location": "Morning Star Mall(TeleMedhanialem)",
+    "wan_ip": "10.130.213.84/29",
+    "lan_ip": "10.1.227.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 15100147115
+  },
+  {
+    "location": "18 mazoria- A way to Mesalemya",
+    "wan_ip": "10.128.250.84/29",
+    "lan_ip": "10.1.228.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8mbps",
+    "line_type": "Fiber",
+    "service_number": 87101097518
+  },
+  {
+    "location": "Habte Giorgis Dildiy",
+    "wan_ip": "10.133.135.4/29",
+    "lan_ip": "10.1.228.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8mbps",
+    "line_type": "Fiber",
+    "service_number": 90101097521
+  },
+  {
+    "location": "Lamberet Meneharia ",
+    "wan_ip": "10.150.254.252/29",
+    "lan_ip": "10.1.228.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8mbps",
+    "line_type": "Fiber",
+    "service_number": 92101097523
+  },
+  {
+    "location": "Addisu Gebeya area BC",
+    "wan_ip": "10.133.130.20/29",
+    "lan_ip": "10.1.228.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8mbps",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Bahirdar Branch",
+    "wan_ip": "10.13.52.21 /29",
+    "lan_ip": "10.1.229.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 44100160344,
+    "account_number": "09 18 43 72 43"
+  },
+  {
+    "location": "Diredewa Branch",
+    "wan_ip": "10.139.213.52 /29",
+    "lan_ip": "10.1.230.0/24",
+    "Column4": "VPN",
+    "bandwidth": "15 MG",
+    "line_type": "Fiber",
+    "service_number": 58100162968
+  },
+  {
+    "location": "Shashemene Branch",
+    "wan_ip": "10.137.212.12/29",
+    "lan_ip": "10.1.231.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 57100162967
+  },
+  {
+    "location": "hayahulet Banking Center",
+    "wan_ip": "10.130.243.188/29",
+    "lan_ip": "10.1.232.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 95100172815
+  },
+  {
+    "location": "Merkato Banking Center",
+    "wan_ip": "10.128.228.113/29",
+    "lan_ip": "10.1.233.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 67100176157
+  },
+  {
+    "location": "Jemmo Banking Center",
+    "wan_ip": "10.151.227.228/29",
+    "lan_ip": "10.1.234.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 19100193879
+  },
+  {
+    "location": "Kera Banking Center",
+    "wan_ip": "10.153.213.116",
+    "lan_ip": "10.1.235.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 22100193882
+  },
+  {
+    "location": "Rwanda Banking Center",
+    "wan_ip": "10.130.213.100/29",
+    "lan_ip": "10.1.236.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 68100206848
+  },
+  {
+    "location": "Kombolecha Banking Center",
+    "wan_ip": "10.140.227.76",
+    "lan_ip": "10.1.237.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 20100193880
+  },
+  {
+    "location": "Adigrat Town",
+    "wan_ip": "10.136.249.65/29",
+    "lan_ip": "10.1.238.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 39100197279
+  },
+  {
+    "location": "Betele Banking Center",
+    "wan_ip": "10.129.221.212",
+    "lan_ip": "10.1.239.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 34100209594
+  },
+  {
+    "location": "Jimma Banking Center",
+    "wan_ip": "10.145.241.44/29",
+    "lan_ip": "10.1.240.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 40100197280
+  },
+  {
+    "location": "Desie Banking Center",
+    "wan_ip": "10.140.228.172/29",
+    "lan_ip": "10.1.241.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 58100234468
+  },
+  {
+    "location": "Alemgena Banking Center",
+    "wan_ip": "10.129.223.116/29",
+    "lan_ip": "10.1.242.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 57100234467
+  },
+  {
+    "location": "Figa Banking Center",
+    "wan_ip": "10.150.200.116/29",
+    "lan_ip": "10.1.243.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 95100257995
+  },
+  {
+    "location": "Sholla BC",
+    "wan_ip": "10.130.254.84/29",
+    "lan_ip": "10.1.244.0/24",
+    "Column4": "VPN",
+    "bandwidth": "15Mbps",
+    "line_type": "Fiber",
+    "service_number": 27100279547
+  },
+  {
+    "location": "Wuha-Limat area BC",
+    "wan_ip": "10.130.225.180/29",
+    "lan_ip": "10.1.245.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 52100266952
+  },
+  {
+    "location": "Abinet BC",
+    "wan_ip": "10.128.213.12/29",
+    "lan_ip": "10.1.246.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 18100278458
+  },
+  {
+    "location": " Megenagna Zefmesh area",
+    "wan_ip": "10.130.254.100/29",
+    "lan_ip": "10.1.247.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 11100290171
+  },
+  {
+    "location": " Mexico area (TADCO Building)",
+    "wan_ip": "10.131.146.28/29",
+    "lan_ip": "10.1.248.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 16100290176
+  },
+  {
+    "location": "Ayat Meri area",
+    "wan_ip": "10.150.219.156/29",
+    "lan_ip": "10.1.249.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 15100290175
+  },
+  {
+    "location": "Getu Commercial /Olompia/ BC",
+    "wan_ip": "10.131.152.116/29",
+    "lan_ip": "10.1.250.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 17100529077
+  },
+  {
+    "location": "Sidamo Tera BC",
+    "wan_ip": "10.128.233.100/29",
+    "lan_ip": "10.1.251.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 18100529078
+  },
+  {
+    "location": "Adey Abeba Stadium",
+    "wan_ip": "10.130.237.244/29",
+    "lan_ip": "10.1.252.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 86100594036
+  },
+  {
+    "location": " Bole Bulbula",
+    "wan_ip": "10.151.236.252/29",
+    "lan_ip": "10.1.253.0/24",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 87100594037
+  },
+  {
+    "location": "Bulgaria Mazoria/ Kera",
+    "wan_ip": "10.153.224.36/29",
+    "lan_ip": "10.1.255.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8MG",
+    "line_type": "Fiber",
+    "service_number": 35101195316
+  },
+  {
+    "location": "Saris Branch",
+    "wan_ip": "10.151.199.44/29",
+    "lan_ip": "10.1.255.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8MG",
+    "line_type": "Fiber",
+    "service_number": 66101199577
+  },
+  {
+    "location": "Mekanne Eyesus /Mekannisa/",
+    "wan_ip": "10.129.245.44/29",
+    "lan_ip": "10.1.255.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8MG",
+    "line_type": "Fiber",
+    "service_number": 57101255908
+  },
+  {
+    "location": "Legehar Sub Branch",
+    "wan_ip": "10.131.184.52/29",
+    "lan_ip": "10.1.255.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8MG",
+    "line_type": "Fiber",
+    "service_number": 40101353001,
+    "account_number": 1468
+  },
+  {
+    "location": "Summit Goro BC",
+    "wan_ip": "10.130.217.116/29",
+    "lan_ip": "10.1.0.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8MG",
+    "line_type": "Fiber",
+    "service_number": 49101351300
+  },
+  {
+    "location": "Lebu Muzika Sefer",
+    "wan_ip": "10.151.212.156/29",
+    "lan_ip": "10.1.0.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8MG",
+    "line_type": "Fiber",
+    "service_number": 72101415313
+  },
+  {
+    "location": "Summit Noc \u2013 Sub branch",
+    "wan_ip": "10.130.162.196/29",
+    "lan_ip": "10.1.0.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8MG",
+    "line_type": "Fiber",
+    "service_number": 69101415310
+  },
+  {
+    "location": "Sarbet area BC",
+    "lan_ip": "10.1.0.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8MG",
+    "line_type": "Fiber",
+    "service_number": 70101415311
+  },
+  {
+    "location": "Gambela branch",
+    "wan_ip": "10.145.195.212/29",
+    "lan_ip": "10.1.3.0/27",
+    "Column4": "VPN",
+    "bandwidth": "8MG",
+    "line_type": "Fiber",
+    "service_number": 71101475452,
+    "account_number": "VLAN 1203"
+  },
+  {
+    "location": "Dese-buambua-wuha-branch",
+    "wan_ip": "10.140.131.236",
+    "lan_ip": "10.1.3.32/27",
+    "Column4": "VPN",
+    "bandwidth": "8MG",
+    "line_type": "Fiber",
+    "service_number": 72101475453
+  },
+  {
+    "location": "Gondar Arada ",
+    "wan_ip": "10.142.228.4/29",
+    "lan_ip": "10.1.3.64/27",
+    "Column4": "VPN",
+    "bandwidth": "8Mbps",
+    "line_type": "fiber",
+    "service_number": 58101505079
+  },
+  {
+    "location": "Tele Medhanialem Relocation",
+    "wan_ip": "10.130.208.76/29",
+    "lan_ip": "10.1.3.96/27",
+    "Column4": "VPN",
+    "bandwidth": "8Mbps",
+    "line_type": "fiber",
+    "service_number": 87101573508
+  },
+  {
+    "location": "Hawasa Haile resort",
+    "wan_ip": "10.138.195.160/29",
+    "lan_ip": "192.168.20.200",
+    "Column4": "VPN-moved",
+    "bandwidth": "15Mbps",
+    "line_type": "Fiber",
+    "service_number": 9990022537,
+    "account_number": 2912129
+  },
+  {
+    "location": "Aironet-NBE",
+    "wan_ip": "10.131.198.124/29",
+    "lan_ip": "10.1.0.0/16",
+    "Column4": "VPN",
+    "bandwidth": "2Mbps",
+    "line_type": "AIRONET",
+    "service_number": 19721104
+  },
+  {
+    "location": "Samaritan Medical Service ",
+    "wan_ip": "10.150.231.180/29",
+    "lan_ip": "10.1.100.0/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 95101215626
+  },
+  {
+    "location": "Kality Central Building \u2013 Akaki",
+    "wan_ip": "10.151.254.33/29",
+    "lan_ip": "10.1.100.8/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 80101203281,
+    "account_number": 3279
+  },
+  {
+    "location": "Zeymon Building ",
+    "wan_ip": "10.129.243.116/29",
+    "lan_ip": "10.1.100.16/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 81101203282
+  },
+  {
+    "location": "Lancet Hospital ATM",
+    "lan_ip": "10.1.6.224/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Kenenisa Hotel ",
+    "wan_ip": "10.130.252.124/29",
+    "lan_ip": "10.1.100.32/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Elgel Hotel",
+    "wan_ip": "10.129.244.100 /29",
+    "lan_ip": "10.1.100.40/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 84101203285
+  },
+  {
+    "location": "Yebsabi Guest House",
+    "wan_ip": "10.130.241.97/29",
+    "lan_ip": "10.1.100.48/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 85101203286
+  },
+  {
+    "location": "Century Mall",
+    "wan_ip": "10.150.230.228 /29",
+    "lan_ip": "10.1.100.56/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL / D-Link",
+    "service_number": 86101203287
+  },
+  {
+    "location": "Hotel Tirago",
+    "lan_ip": "10.1.100.64/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Foyat Hotel",
+    "lan_ip": "10.1.100.72/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Yeadamzewd Int\u2019l Hotel",
+    "wan_ip": "10.133.129.60 /29",
+    "lan_ip": "10.1.100.80/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 22101208893
+  },
+  {
+    "location": "Fitber building",
+    "lan_ip": "10.1.100.88/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "V-lounge",
+    "wan_ip": "10.151.254.1/29",
+    "lan_ip": "10.1.100.96/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Noah Real-estate Diplomat Aprt",
+    "wan_ip": "10.130.252.240/29",
+    "lan_ip": "10.1.100.104/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 15101208886
+  },
+  {
+    "location": "Golden Coffee",
+    "lan_ip": "10.1.100.112/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Abyssinia real-Estate",
+    "lan_ip": "10.1.100.120/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Sowirad Hotel",
+    "lan_ip": "10.1.100.128/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Bedriya Mall",
+    "wan_ip": "10.130.245.100/29",
+    "lan_ip": "10.1.100.136/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 96101215627
+  },
+  {
+    "location": "Jambo Business Center  ",
+    "wan_ip": "10.133.214.169/29",
+    "lan_ip": "10.1.100.144/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Tirar Hotel",
+    "wan_ip": "10.131.179.60/29",
+    "lan_ip": "10.1.100.152/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 97101215628
+  },
+  {
+    "location": "Blue Nest Hotel",
+    "wan_ip": "10.131.179.68/29",
+    "lan_ip": "10.1.100.160/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 99101215630
+  },
+  {
+    "location": "Kassa Grand Mall",
+    "wan_ip": "10.131.179.76/29",
+    "lan_ip": "10.1.100.192/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL",
+    "service_number": 10101215631
+  },
+  {
+    "location": "Da\u2019amat Hotel ",
+    "wan_ip": "10.130.198.156/29",
+    "lan_ip": "10.1.100.176/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "ADSL / D-Link",
+    "service_number": 11101215632
+  },
+  {
+    "location": "Warka Mall",
+    "lan_ip": "10.1.100.184/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Kassa Grand Mall",
+    "wan_ip": "10.131.179.74/29",
+    "lan_ip": "10.1.100.192/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Semen Hotel",
+    "wan_ip": "10.133.133.33/29",
+    "lan_ip": "10.1.100.200/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 22101236073
+  },
+  {
+    "location": " Gast Mall",
+    "lan_ip": "10.1.100.208/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "AU Topia Hotel",
+    "wan_ip": "10.131.182.84/29",
+    "lan_ip": "10.1.100.216/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 70101300831
+  },
+  {
+    "location": "Jemo Mall ",
+    "lan_ip": "10.1.100.224/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": " Totot Traditional Restaurant",
+    "wan_ip": "10.150.232.196/29",
+    "lan_ip": "10.1.100.232/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 54101255905
+  },
+  {
+    "location": " Kings Hotel- Sarbet",
+    "lan_ip": "10.1.100.240/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Cassiopeia Hotel",
+    "wan_ip": "10.130.253.185/29",
+    "lan_ip": "10.1.100.248/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "International Tennis Club ",
+    "wan_ip": "10.129.245.220/29",
+    "lan_ip": "10.1.101.0/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 37101275868
+  },
+  {
+    "location": "Kidus Bizuayehu PLC",
+    "wan_ip": "10.151.255.132/29",
+    "lan_ip": "10.1.101.8/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Copper",
+    "service_number": 36101275867
+  },
+  {
+    "location": "Check Inn Hotel",
+    "lan_ip": "10.1.101.16/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Grace Plaza ATM",
+    "wan_ip": "10.130.159.52/29",
+    "lan_ip": "10.1.101.24/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 37101294678
+  },
+  {
+    "location": "JFK building ",
+    "wan_ip": "10.129.246.12/29",
+    "lan_ip": "10.1.101.32/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 30101282431
+  },
+  {
+    "location": "Adwest Digital Advertising PLC ( Adwest Hotel)",
+    "lan_ip": "10.1.101.40/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Kena Hotel",
+    "wan_ip": "10.130.159.4/29",
+    "lan_ip": "10.1.101.48/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 33101282434
+  },
+  {
+    "location": "Rifenti Apartments",
+    "lan_ip": "10.1.101.56/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Senga Tera Traders Union Building",
+    "wan_ip": "10.131.181.162/29",
+    "lan_ip": "10.1.101.64/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 36101282437
+  },
+  {
+    "location": "Adama City \u2013 Naflet Hotel. ",
+    "lan_ip": "10.1.101.72/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Hotel DE LEOPOL ",
+    "lan_ip": "10.1.101.80/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Meseret Defar Mall  ",
+    "lan_ip": "10.1.101.88/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Churchill Hotel ATM",
+    "wan_ip": "10.133.145.252/29",
+    "lan_ip": "10.1.101.96/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 72101300833
+  },
+  {
+    "location": "TM Five Real-estate ATM",
+    "wan_ip": "10.131.183.204/29",
+    "lan_ip": "10.1.101.104/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 69101317300
+  },
+  {
+    "location": "International Cardiac Company (ICMC)",
+    "lan_ip": "10.1.101.112/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Dire-Dawa ( Sabian Area ) ATM - Yigezu lijoch hotel",
+    "wan_ip": "10.139.242.236/29",
+    "lan_ip": "10.1.101.120/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 52101326823
+  },
+  {
+    "location": "T Bonroyal Trading ATM",
+    "lan_ip": "10.1.101.128/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 49101326820
+  },
+  {
+    "location": "A.A Ras Hotel ATM",
+    "lan_ip": "10.1.101.136/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 72101330443
+  },
+  {
+    "location": "Legar Hotel ATM",
+    "wan_ip": "10.131.183.140/29",
+    "lan_ip": "10.1.101.144/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 73101330444
+  },
+  {
+    "location": "Liyu Hotel ",
+    "wan_ip": "10.130.160.100/29",
+    "lan_ip": "10.1.101.152/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 74101330445
+  },
+  {
+    "location": "Lebenz Investments (Lebenz Tower) ",
+    "lan_ip": "10.1.101.160/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "ECO Guest House ",
+    "wan_ip": "10.130.231.132/29",
+    "lan_ip": "10.1.101.168/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 13101341004
+  },
+  {
+    "location": "Yobo Hotel ",
+    "lan_ip": "10.1.101.176/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Lalo Building (Lalo ATM)",
+    "wan_ip": "10.151.214.202",
+    "lan_ip": "10.1.101.184/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 14101341005
+  },
+  {
+    "location": "International Clinical Laboratories (ICL) ATM ",
+    "wan_ip": "10.153.225.204/29",
+    "lan_ip": "10.1.101.192/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 41101353002
+  },
+  {
+    "location": "Lewis retails \u2013 Summit area ",
+    "wan_ip": "10.150.224.156/29",
+    "lan_ip": "10.1.101.200/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 56101358057
+  },
+  {
+    "location": "Alkebi Hotel \u2013 AU Area",
+    "wan_ip": "10.153.225.244/29",
+    "lan_ip": "10.1.101.208/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 64101367245
+  },
+  {
+    "location": "Embassy of the kingdom of Belgium",
+    "wan_ip": "10.130.165.252/29",
+    "lan_ip": "10.1.101.216/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 35101433456
+  },
+  {
+    "location": "Haile Resort",
+    "lan_ip": "10.1.101.224/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Grand Haile Addis Ababa",
+    "wan_ip": "10.150.239.116/29",
+    "lan_ip": "10.1.101.232/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 34101433455
+  },
+  {
+    "location": "Tennis ATM",
+    "lan_ip": "10.1.101.240/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Garad Mall",
+    "lan_ip": "10.1.101.248/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Best Western Premier Hotel",
+    "wan_ip": "10.151.133.68/29",
+    "lan_ip": "10.1.102.0/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 18101526999
+  },
+  {
+    "location": "Dire-Dawa city /New Level Hotel",
+    "lan_ip": "10.1.102.8/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 11101542382
+  },
+  {
+    "location": "Dat Tower(Luxury)",
+    "wan_ip": "10.130.253.156/29",
+    "lan_ip": "10.1.102.16/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 32101653913
+  },
+  {
+    "location": "Friendship Building",
+    "lan_ip": "10.1.102.24/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Friendship Hyper Market\u00a0ATM",
+    "wan_ip": "10.150.215.84/29",
+    "lan_ip": "10.1.102.32/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 34101653915
+  },
+  {
+    "location": "Friendship Hotel\u00a0ATM(Dambel Area)",
+    "wan_ip": "10.130.249.124/29",
+    "lan_ip": "10.1.102.40/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 44102168685
+  },
+  {
+    "location": "Global Hotel",
+    "wan_ip": "10.153.249.28/29",
+    "lan_ip": "10.1.102.48/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 37101653918
+  },
+  {
+    "location": "Hotel Lobelia",
+    "wan_ip": "10.130.177.68/29",
+    "lan_ip": "10.1.102.56/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 38101653919
+  },
+  {
+    "location": "Presidential Hotel",
+    "wan_ip": "10.130.236.196/29",
+    "lan_ip": "10.1.102.64/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 39101653920
+  },
+  {
+    "location": "Yoli Hotel",
+    "wan_ip": "10.130.177.44/29",
+    "lan_ip": "10.1.102.72/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 40101653921
+  },
+  {
+    "location": "Selam City Mall ATM",
+    "wan_ip": "10.130.221.252/29",
+    "lan_ip": "10.1.102.80/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 42101653923
+  },
+  {
+    "location": "St Gabriel Hospital",
+    "wan_ip": "10.130.238.236/29",
+    "lan_ip": "10.1.102.88/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 33101655714
+  },
+  {
+    "location": "All Mart ATM ",
+    "wan_ip": "10.129.254.52/29",
+    "lan_ip": "10.1.102.96/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 38101655719
+  },
+  {
+    "location": "Row Presidential Hotel ",
+    "wan_ip": "10.130.208.4/29",
+    "lan_ip": "10.1.102.104/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 37101655718
+  },
+  {
+    "location": "Yinm General Trading Furniture ATMs ",
+    "lan_ip": "10.1.102.112/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "NOT working"
+  },
+  {
+    "location": "Sani Real Estate",
+    "wan_ip": "10.129.254.20/29",
+    "lan_ip": "10.1.102.120/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 39101655720
+  },
+  {
+    "location": "Harmony Hotel ",
+    "wan_ip": "10.130.249.124/29",
+    "lan_ip": "10.1.102.128/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 41101649782
+  },
+  {
+    "location": "Alemnesh Plaza ",
+    "wan_ip": "10.130.177.60/29",
+    "lan_ip": "10.1.102.136/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 40101655721
+  },
+  {
+    "location": "Adot Mall ATM ",
+    "wan_ip": "10.129.152.100/29",
+    "lan_ip": "10.1.102.144/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 42101655723
+  },
+  {
+    "location": "Suba Hotel ATM ",
+    "wan_ip": "10.130.214.44/29",
+    "lan_ip": "10.1.102.152/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 58101682919
+  },
+  {
+    "location": "YINM Furniture General Trading  ATMs ",
+    "wan_ip": "10.129.254.44/29",
+    "lan_ip": "10.1.102.162",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 36101655717
+  },
+  {
+    "location": "Loft Hotel ATM",
+    "wan_ip": "10.130.201.236/29",
+    "lan_ip": "10.1.102.168/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 49101692180
+  },
+  {
+    "location": "Micky General Investment ",
+    "lan_ip": "10.1.102.176/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Salaysh  Hotel/Mizan Aman",
+    "lan_ip": "10.1.102.184/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 74101780315
+  },
+  {
+    "location": "IV Hotel ",
+    "lan_ip": "10.1.102.144/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Alfoz Plaza ",
+    "wan_ip": "10.150.217.72/29",
+    "lan_ip": "10.1.102.200/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 60101682921
+  },
+  {
+    "location": "2000 Habesh( Atlas) ",
+    "wan_ip": "10.130.206.148/29",
+    "lan_ip": "10.1.102.208/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 59101682920
+  },
+  {
+    "location": "Bekele Molla Hotels(Hiber Ethiopia) ATM",
+    "wan_ip": "10.130.202.188/29",
+    "lan_ip": "10.1.102.216/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 50101692181
+  },
+  {
+    "location": "Elilly Hotel ",
+    "lan_ip": "10.1.102.224/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 48101692179
+  },
+  {
+    "location": "Dire Dawa Building ",
+    "lan_ip": "10.1.102.232/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Sisay Plaza ",
+    "lan_ip": "10.1.102.240/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "2000 Habesh( Bole)",
+    "wan_ip": "10.130.214.252/29",
+    "lan_ip": "10.1.102.248/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 61101682922
+  },
+  {
+    "location": "Total Energy Ethiopia ATM ",
+    "wan_ip": "10.131.108.20/29",
+    "lan_ip": "10.1.6.0/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 91101707252
+  },
+  {
+    "location": "New Day ",
+    "lan_ip": "10.1.6.8/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Elmo\u2019s Hotel ATMs ",
+    "lan_ip": "10.1.6.16/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Aster Plaza -ATM",
+    "wan_ip": "10.153.249.156/29",
+    "lan_ip": "10.1.6.24/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "service_number": 57101725218
+  },
+  {
+    "location": "Alexandria Building -ATM",
+    "lan_ip": "10.1.6.32/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Black Pearl -ATM",
+    "lan_ip": "10.1.6.40/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG"
+  },
+  {
+    "location": "Rakan Mall-ATM",
+    "wan_ip": "10.130.220.156/29",
+    "lan_ip": "10.1.6.48/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 58101725219
+  },
+  {
+    "location": "Merkeb Plaza ATM",
+    "wan_ip": "10.131.108.180/29",
+    "lan_ip": "10.1.6.56/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 74101742515
+  },
+  {
+    "location": "Aphrodite Hotel ATM ",
+    "wan_ip": "10.131.108.236/29",
+    "lan_ip": "10.1.6.64/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 75101742516
+  },
+  {
+    "location": "Fekma ATM ",
+    "wan_ip": "10.129.254.156/29",
+    "lan_ip": "10.1.6.72/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 76101742517
+  },
+  {
+    "location": "Bostern Partner ATM ",
+    "wan_ip": "10.130.177.236/29",
+    "lan_ip": "10.1.6.80/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 51101752212
+  },
+  {
+    "location": "Bingham Academy ATM",
+    "wan_ip": "10.128.242.36/29",
+    "lan_ip": "10.1.6.88/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 88101758639
+  },
+  {
+    "location": "Billal Habesha ATM ",
+    "wan_ip": "10.0.129.153.28/29",
+    "lan_ip": "10.1.6.96/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 57101766258
+  },
+  {
+    "location": "Mercy Plaza ATM ",
+    "wan_ip": "10.150.247.20/29",
+    "lan_ip": "10.1.6.104/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 56101766257,
+    "account_number": 2044
+  },
+  {
+    "location": "Ras Hotel(Dire Dawa)\u00a0 ATM ",
+    "wan_ip": "10.139.162.148/29",
+    "lan_ip": "10.1.6.112/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 68101775179
+  },
+  {
+    "location": "AG Grace ATM ",
+    "wan_ip": "10.130.166.28/29",
+    "lan_ip": "10.1.6.120/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 57101766259,
+    "account_number": 1628
+  },
+  {
+    "location": "Dreamliner Hotel ATM ",
+    "wan_ip": "10.153.249.204/29",
+    "lan_ip": "10.1.6.128/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 59101766260,
+    "account_number": 1736
+  },
+  {
+    "location": "Elias Tefera Building ATM ",
+    "wan_ip": "10.130.180.44/29",
+    "lan_ip": "10.1.6.136/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 80101775821,
+    "account_number": 1699
+  },
+  {
+    "location": "Dembel City ATM",
+    "wan_ip": "10.131.109.252/29",
+    "lan_ip": "10.1.6.144/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 71101775182,
+    "account_number": 1811
+  },
+  {
+    "location": "Family Modern ATM",
+    "wan_ip": "10.149.213.44/29",
+    "lan_ip": "10.1.6.152/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 81101775822,
+    "account_number": 2024
+  },
+  {
+    "location": "Abkem Building  ATM",
+    "lan_ip": "10.1.6.160/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 70101775181
+  },
+  {
+    "location": "Klaver Flower ATM ",
+    "lan_ip": "10.1.6.168/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Washington Hotel ATM ",
+    "wan_ip": "10.130.178.148/29",
+    "lan_ip": "10.1.6.176/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 62101789303,
+    "account_number": 1712
+  },
+  {
+    "location": "ICS-2 ATM",
+    "wan_ip": "10.129.154.36/29",
+    "lan_ip": "10.1.6.184/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 65101799386
+  },
+  {
+    "location": "Garalay Hotel ATM",
+    "wan_ip": "10.133.130.244/29",
+    "lan_ip": "10.1.6.192/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 60101789981,
+    "account_number": 2331
+  },
+  {
+    "location": "Golf Club ATM",
+    "wan_ip": "10.129.152.20/29",
+    "lan_ip": "10.1.6.200/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 63101799384,
+    "account_number": 2023
+  },
+  {
+    "location": "Fasil Chanie Guiding ATM",
+    "wan_ip": "10.150.208.196/29",
+    "lan_ip": "10.1.6.208/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 66101799387,
+    "account_number": 2333
+  },
+  {
+    "location": "AB Zone ATM",
+    "wan_ip": "10.131.110.244/29",
+    "lan_ip": "10.1.6.216/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 58101799379
+  },
+  {
+    "location": "Lancet Hospital ATM",
+    "lan_ip": "10.1.6.224/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Vibes Hotel ATM",
+    "lan_ip": "10.1.6.232/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Yober hotel ATM",
+    "lan_ip": "10.1.6.240/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Bahru Abrham Tower ATM ",
+    "wan_ip": "10.131.112.108/29",
+    "lan_ip": "10.1.6.248/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 95101818766
+  },
+  {
+    "location": "Gambella Hotel ATM ",
+    "lan_ip": "10.1.7.0/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Tadesse Chekol ATM ",
+    "wan_ip": "10.133.200.4/29",
+    "lan_ip": "10.1.7.8/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 97101818768
+  },
+  {
+    "location": "Merry Guest House ATM ",
+    "wan_ip": "10.130.166.36/29",
+    "lan_ip": "10.1.7.16/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 74101846555
+  },
+  {
+    "location": "Sintayehu Fikremariam ATM ",
+    "lan_ip": "10.1.7.24/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Amanuel Seifert Hotel ATM ",
+    "wan_ip": "10.134.214.252",
+    "lan_ip": "10.1.7.32/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 32101891153
+  },
+  {
+    "location": "Melka Hotel",
+    "wan_ip": "10.131.113.132",
+    "lan_ip": "10.1.7.40/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Haikan Hotel ",
+    "lan_ip": "10.1.7.48/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Bayne Building ATM",
+    "wan_ip": "10.129.152.148/29",
+    "lan_ip": "10.1.7.56/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 69101914590
+  },
+  {
+    "location": "All Mart ",
+    "wan_ip": "10.151.237.148/29",
+    "lan_ip": "10.1.7.64/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 16101867827,
+    "account_number": 2035
+  },
+  {
+    "location": "Shitaye Hotel ATMs ",
+    "wan_ip": "10.151.140.204/29",
+    "lan_ip": "10.1.7.72/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 14101867825
+  },
+  {
+    "location": "Golgotha ATM ",
+    "wan_ip": "10.150.224.140/29",
+    "lan_ip": "10.1.7.80/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 71101914592,
+    "account_number": 2800
+  },
+  {
+    "location": "St. Mary University ATM",
+    "wan_ip": "10.131.114.92/29",
+    "lan_ip": "10.1.7.88/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 73101914594,
+    "account_number": 1434
+  },
+  {
+    "location": "All Mart (3) ATM(Ayat) ",
+    "wan_ip": "10.150.239.148/29",
+    "lan_ip": "10.1.7.96/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 87101931888
+  },
+  {
+    "location": "Jambo Plaza ATM ",
+    "lan_ip": "10.1.7.104/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Wube Berha ATM ",
+    "wan_ip": "10.133.216.156/29",
+    "lan_ip": "10.1.7.112/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 58101944009
+  },
+  {
+    "location": "Arora Plaza ATM",
+    "wan_ip": "10.151.160.4/29",
+    "lan_ip": "10.1.7.120/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 63102158084,
+    "account_number": 2807
+  },
+  {
+    "location": "Duplicated IP with tele Msg Box",
+    "lan_ip": "10.1.7.128/29",
+    "service_number": 80101991541
+  },
+  {
+    "location": "Dream Liyana ATM",
+    "wan_ip": "10.131.76.4/29",
+    "lan_ip": "10.1.7.136/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 17102120778
+  },
+  {
+    "location": "Axon Neurology Center ATM",
+    "wan_ip": "10.150.172.212/29",
+    "lan_ip": "10.1.7.144/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 80101991541
+  },
+  {
+    "location": "Klaver Flower ATM(Hawassa)",
+    "wan_ip": "10.138.229.152/29",
+    "lan_ip": "10.1.7.152/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 30102027374
+  },
+  {
+    "location": "Sebara Babur Branch ATM",
+    "wan_ip": "10.133.128.124/29",
+    "lan_ip": "10.1.7.160/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 93102077474
+  },
+  {
+    "location": "Addis Hiwot Hospital ATM",
+    "wan_ip": "10.130.74.94/29",
+    "lan_ip": "10.1.7.168/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 13102083784
+  },
+  {
+    "location": "Ethiopian Posta ATM",
+    "wan_ip": "10.131.75.44/29",
+    "lan_ip": "10.1.7.176/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber",
+    "service_number": 17102095848
+  },
+  {
+    "location": "Get Building ATM",
+    "lan_ip": "10.1.7.184/29",
+    "Column4": "VPN",
+    "bandwidth": "3MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Danu Medical Center ATM",
+    "wan_ip": "10.133.86.76/29",
+    "lan_ip": "10.1.7.192/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 66102128567
+  },
+  {
+    "location": "Nordic Hospital ATM",
+    "lan_ip": "10.1.7.200/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Duki Commercial Building ATM",
+    "lan_ip": "10.1.7.208/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Wastina commercial center ATM",
+    "lan_ip": "10.1.7.216/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "EMA Tower ATM",
+    "wan_ip": "10.133.66.140/29",
+    "lan_ip": "10.1.7.224/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 33102217544
+  },
+  {
+    "location": "Genet Commercial Building ATM",
+    "lan_ip": "10.1.7.232/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Blue Nest ATM",
+    "lan_ip": "10.1.7.240/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Bole Ambassador Hotel ATM",
+    "wan_ip": " 10.130.73.204/29",
+    "lan_ip": "10.1.7.248/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 34102217545
+  },
+  {
+    "location": "Lebasilic Hotel ATM",
+    "lan_ip": "10.1.8.0/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Parlama Sub Branch \u00a0ATM(Ambasader Mall ATM)",
+    "wan_ip": "10.133.233.20/29 DG  ----2",
+    "lan_ip": "10.1.8.8/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber",
+    "service_number": 16102237597
+  },
+  {
+    "location": "Magnolia Hotel ATM",
+    "lan_ip": "10.1.8.16/29",
+    "Column4": "VPN",
+    "bandwidth": "5MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Bishoftu Sub Branch ",
+    "wan_ip": "10.134.211.204/29",
+    "lan_ip": "10.1.103.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MG",
+    "line_type": "Fiber",
+    "service_number": 30101562921
+  },
+  {
+    "location": "Ferensay legasion area BC ",
+    "wan_ip": "10.133.207.108/29",
+    "lan_ip": "10.1.103.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MG",
+    "line_type": "Fiber",
+    "service_number": 32101562923
+  },
+  {
+    "location": "Jimma 2nd BC ",
+    "lan_ip": "10.1.103.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MG"
+  },
+  {
+    "location": "Dukem BC ",
+    "wan_ip": "10.134.212.44/29",
+    "lan_ip": "10.1.103.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MG",
+    "line_type": "Fiber",
+    "service_number": 33101562924
+  },
+  {
+    "location": "Hawassa Meneharia 3rd BC",
+    "wan_ip": "10.138.224.180/29",
+    "lan_ip": "10.1.104.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MG",
+    "line_type": "Fiber",
+    "service_number": 35101562926
+  },
+  {
+    "location": "Adama Oda 3rd BC ",
+    "wan_ip": "10.141.177.92/29",
+    "lan_ip": "10.1.104.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MG",
+    "line_type": "Fiber",
+    "service_number": 38101562929
+  },
+  {
+    "location": "Summit 72 Branch",
+    "wan_ip": "10.130.230.188/29",
+    "lan_ip": "10.1.104.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MG",
+    "line_type": "Fiber",
+    "service_number": 32101592083,
+    "account_number": "VLAN"
+  },
+  {
+    "location": "Jima2 Branch",
+    "wan_ip": "??",
+    "lan_ip": "10.1.104.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MG",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Sebara Babur  Branch",
+    "wan_ip": "10.133.132.49/29",
+    "lan_ip": "10.1.105.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MB",
+    "line_type": "Fiber",
+    "service_number": 24101439025
+  },
+  {
+    "location": "Tulu Dimtu",
+    "wan_ip": "10.151.135.60/29",
+    "lan_ip": "10.1.105.64/26",
+    "Column4": "VPN",
+    "bandwidth": "9 MB",
+    "line_type": "Fiber",
+    "service_number": 94101632825
+  },
+  {
+    "location": "Sebeta BC",
+    "wan_ip": "10.239.171.220",
+    "Column4": "VPN",
+    "bandwidth": "8 MB",
+    "line_type": "Fiber",
+    "service_number": 71101330442
+  },
+  {
+    "location": "Afar -Logiya BC",
+    "wan_ip": "10.152.202.44/29",
+    "lan_ip": "10.1.106.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MB",
+    "line_type": "Fiber",
+    "service_number": 20101439021
+  },
+  {
+    "location": "Assela BC",
+    "wan_ip": "10.141.180.100/29",
+    "Column4": "VPN",
+    "bandwidth": "8 MB",
+    "line_type": "Fiber",
+    "service_number": 21101439022
+  },
+  {
+    "location": "Mizan Aman BC",
+    "wan_ip": "10.145.71.220/29",
+    "lan_ip": "10.1.106.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MB",
+    "line_type": "Fiber",
+    "service_number": 23101439024
+  },
+  {
+    "location": "Furi Branch",
+    "wan_ip": "10.129.150.228/29",
+    "lan_ip": "10.1.202.240/28",
+    "Column4": "VPN",
+    "bandwidth": "8 MB",
+    "line_type": "Fiber",
+    "service_number": 89101456750
+  },
+  {
+    "location": "Diredewa CU (Dechatu)",
+    "wan_ip": "10.139.228.60/29",
+    "lan_ip": "10.1.107.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MB",
+    "line_type": "Fiber",
+    "service_number": 54100234464
+  },
+  {
+    "location": "Adama Branch",
+    "wan_ip": "10.141.205.60/29",
+    "lan_ip": "10.1.107.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MB",
+    "line_type": "Fiber",
+    "service_number": 9990045119
+  },
+  {
+    "location": "Hawasa Atote ",
+    "wan_ip": "10.138.211.228/29",
+    "lan_ip": "10.1.107.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MB",
+    "line_type": "Fiber",
+    "service_number": 94100160214
+  },
+  {
+    "location": "Humera branch",
+    "wan_ip": "10.142.217.84/29",
+    "lan_ip": "10.1.107.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MB",
+    "line_type": "Fiber",
+    "service_number": 9990096495
+  },
+  {
+    "location": "Olympia 2nd ",
+    "wan_ip": "10.131.103.92/29",
+    "lan_ip": "10.1.108.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MB",
+    "line_type": "Fiber",
+    "service_number": 64101652775
+  },
+  {
+    "location": "Lege Tafo ",
+    "wan_ip": "10.150.205.4/29",
+    "lan_ip": "10.1.108.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MB",
+    "line_type": "Fiber",
+    "service_number": 43101655724
+  },
+  {
+    "location": "Shashemene Sub Branch ",
+    "wan_ip": "10.137.223.228/29",
+    "lan_ip": "10.1.108.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8 MB",
+    "line_type": "Fiber",
+    "service_number": 57101682918
+  },
+  {
+    "location": "Kaliti Maseltegna Area  ",
+    "wan_ip": "10.151.135.180",
+    "lan_ip": "10.1.108.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Bole-Bras Area  Branch",
+    "wan_ip": "10.130.239.34/29",
+    "lan_ip": "10.1.109.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber",
+    "service_number": 90101707251
+  },
+  {
+    "location": "Flamingo Area  ",
+    "wan_ip": "10.131.108.188",
+    "lan_ip": "10.1.109.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber",
+    "service_number": 72101742513
+  },
+  {
+    "location": "Kotebe 02 Area  ",
+    "lan_ip": "10.1.109.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Bole Bulbulla 93 Mazoria BC",
+    "wan_ip": "10.151.139.28/29",
+    "lan_ip": "10.1.109.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber",
+    "service_number": 52101752213
+  },
+  {
+    "location": "22 branch-Relocated",
+    "lan_ip": "10.1.110.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Klaver-Farm ATM Hawassa",
+    "wan_ip": "172.29.105.253",
+    "lan_ip": "172.29.105.253",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Kazanchis Sub Branch",
+    "wan_ip": "10.131.111.204/29",
+    "lan_ip": "10.1.110.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber",
+    "service_number": 53101835644
+  },
+  {
+    "location": "Wossen-Kara Branch",
+    "wan_ip": "10.150.253.68/29",
+    "lan_ip": "10.1.110.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber",
+    "service_number": 73101846554
+  },
+  {
+    "location": "Harar Branch",
+    "wan_ip": "10.139.181.148/29",
+    "lan_ip": "10.1.110.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber",
+    "service_number": 76101853847
+  },
+  {
+    "location": "Gofa Gebriel Branch",
+    "wan_ip": "10.153.229.220/29",
+    "lan_ip": "10.1.111.0/26",
+    "Column4": "VPN",
+    "bandwidth": "10MB",
+    "line_type": "Fiber",
+    "service_number": 15101867826
+  },
+  {
+    "location": "Aware Branch",
+    "wan_ip": "10.131.112.228/29",
+    "lan_ip": "10.1.111.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber",
+    "service_number": 21101869992
+  },
+  {
+    "location": "Asosa BC",
+    "wan_ip": "10.144.100.162",
+    "lan_ip": "10.1.111.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Likuwanda Branch",
+    "wan_ip": "10.128.241.164/29",
+    "lan_ip": "10.1.111.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Bulbulla Mariam Mazoria Branch                      ",
+    "lan_ip": "10.1.112.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Abinet Relocation Branch",
+    "wan_ip": "10.131.116.244/29",
+    "lan_ip": "10.1.112.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber",
+    "service_number": 92102077473
+  },
+  {
+    "location": "Mengenagna BC Relocation",
+    "lan_ip": "10.1.112.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Figa BC Relocation",
+    "lan_ip": "10.1.112.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Imperial Branch",
+    "wan_ip": "10.150.85.212/29",
+    "lan_ip": "10.1.113.0/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber",
+    "service_number": 64102168705
+  },
+  {
+    "location": "AU area Branch",
+    "lan_ip": "10.1.113.64/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Nekemt BC",
+    "lan_ip": "10.1.113.128/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Bale-Robe BC",
+    "lan_ip": "10.1.113.192/26",
+    "Column4": "VPN",
+    "bandwidth": "8MB",
+    "line_type": "Fiber"
+  },
+  {
+    "line_type": "Fiber"
+  },
+  {
+    "location": "Zemen Bank- Mexico HQ-Wi-Fi Internet",
+    "wan_ip": "196.188.76.59/19 DG 196.188.64.1",
+    "Column4": "Internet",
+    "bandwidth": "100mbps",
+    "line_type": "Fiber",
+    "service_number": 68101004149,
+    "account_number": 1448
+  },
+  {
+    "location": "Zemen Bank- Mexico HQ-Ethswitch",
+    "wan_ip": "10.131.155.108/29     DG .109",
+    "lan_ip": "10.131.172.228",
+    "Column4": "VPN",
+    "bandwidth": "5mbps",
+    "line_type": "Fiber",
+    "service_number": 22100954783,
+    "account_number": 1432
+  },
+  {
+    "location": "Zemen Bank- Mexico HQ-National-Bank",
+    "wan_ip": "10.131.173.128/29     DG .129",
+    "lan_ip": "10.131.173.132",
+    "Column4": "VPN",
+    "bandwidth": "2Mbps",
+    "line_type": "Fiber",
+    "service_number": 21100954782,
+    "account_number": 1446
+  },
+  {
+    "location": "Zemen Bank- Mexico HQ-ECX",
+    "wan_ip": "10.131.173.16/29       DG .17",
+    "lan_ip": "10.131.173.20",
+    "Column4": "VPN",
+    "bandwidth": "5mbps",
+    "line_type": "Fiber",
+    "service_number": 19100954780,
+    "account_number": 1447
+  },
+  {
+    "location": "Zemen Bank- Mexico HQ-SMS-Primary",
+    "wan_ip": "10.131.199.204/29   DG .233",
+    "lan_ip": "10.131.172.236",
+    "Column4": "VPN",
+    "bandwidth": "10MB",
+    "line_type": "Fiber",
+    "service_number": 16100954777,
+    "account_number": 1450
+  },
+  {
+    "location": "Zemen Bank- Mexico HQ-SMS-secondary changed to Single windows",
+    "wan_ip": "10.131.172.216/29     DG .217",
+    "lan_ip": "10.131.172.220",
+    "Column4": "VPN",
+    "bandwidth": "5Mbps",
+    "line_type": "Fiber",
+    "service_number": 17100954778,
+    "account_number": 1434
+  },
+  {
+    "location": "Zemen Bank- Mexico HQ-L2-to-DR-Primary",
+    "wan_ip": "10.131.173.0/29         DG .1",
+    "lan_ip": "10.131.173.4",
+    "Column4": "VPN",
+    "bandwidth": "10MB",
+    "line_type": "Fiber",
+    "service_number": 12100954773,
+    "account_number": 1441
+  },
+  {
+    "location": "Zemen Bank- Mexico HQL2-to-DR-secondary",
+    "wan_ip": "10.131.172.208/29     DG .209",
+    "lan_ip": "10.131.172.212",
+    "Column4": "VPN",
+    "bandwidth": "10MB",
+    "line_type": "Fiber",
+    "service_number": 14100954775,
+    "account_number": 1433
+  },
+  {
+    "location": "Zemen Bank- Mexico HQ-Internet-Primary",
+    "wan_ip": "10.131.219.204/29",
+    "lan_ip": "10.131.219.201",
+    "Column4": "VPN",
+    "bandwidth": "160MB",
+    "line_type": "Fiber",
+    "service_number": 9990003182,
+    "account_number": 1449
+  },
+  {
+    "location": "Zemen Bank- Mexico HQ-Internet-Secondary",
+    "wan_ip": "10.131.244.108/29",
+    "lan_ip": "10.131.244.106/29",
+    "Column4": "VPN",
+    "bandwidth": "100MB",
+    "line_type": "Fiber",
+    "service_number": 97100954768,
+    "account_number": 1436
+  },
+  {
+    "location": "Zemen Bank- Mexico HQ-VPN-Sites-Primary",
+    "wan_ip": "10.131.194.196/29",
+    "lan_ip": "10.131.194.193/29",
+    "Column4": "VPN",
+    "bandwidth": "160MB",
+    "line_type": "Fiber",
+    "service_number": 95100954766,
+    "account_number": 1429
+  },
+  {
+    "location": "Zemen Bank- Mexico HQ-VPN-Sites-secondary",
+    "wan_ip": "10.131.173.132/29          ",
+    "lan_ip": "10.131.173.130/29          ",
+    "Column4": "VPN",
+    "bandwidth": "60MB",
+    "line_type": "Fiber",
+    "service_number": 96100954767,
+    "account_number": 1435
+  },
+  {
+    "location": "Zemen Bank- Mexico HQ-Eth secondary",
+    "wan_ip": "10.131.172.248/29     DG .249",
+    "lan_ip": "10.131.172.252",
+    "Column4": "VPN",
+    "bandwidth": "5mbps",
+    "line_type": "Fiber",
+    "service_number": 18100954779,
+    "account_number": 1435
+  }
+]

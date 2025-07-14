@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	"github.com/fahmaliyi/atmer/internal/service"
+	"github.com/fahmaliyi/atmer/internal/utils"
 	"github.com/fatih/color"
 	"github.com/lithammer/fuzzysearch/fuzzy"
 	"github.com/spf13/cobra"
@@ -86,9 +87,10 @@ var serviceCmd = &cobra.Command{
 				cyan("Line:"), yellow(r.LineType),
 			)
 			fmt.Printf("  %s %s | %s %s\n\n",
-				cyan("Service #:"), yellow(fmt.Sprintf("%v", r.ServiceNumber)),
-				cyan("Account #:"), yellow(fmt.Sprintf("%v", r.AccountNumber)),
+				cyan("Service #:"), yellow(utils.ToString(r.ServiceNumber)),
+				cyan("Account #:"), yellow(utils.ToString(r.AccountNumber)),
 			)
+
 		}
 	},
 }
