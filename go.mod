@@ -4,7 +4,6 @@ go 1.23.4
 
 require (
 	github.com/fatih/color v1.18.0
-	github.com/lithammer/fuzzysearch v1.1.8
 	github.com/spf13/cobra v1.9.1
 	github.com/tealeg/xlsx/v3 v3.3.13
 	github.com/xuri/excelize/v2 v2.9.1
