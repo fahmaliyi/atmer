@@ -9,7 +9,6 @@ import (
 	"github.com/fahmaliyi/atmer/internal/service"
 	"github.com/fahmaliyi/atmer/internal/utils"
 	"github.com/fatih/color"
-	"github.com/lithammer/fuzzysearch/fuzzy"
 	"github.com/spf13/cobra"
 )
 
@@ -60,7 +59,7 @@ var serviceCmd = &cobra.Command{
 			}
 
 			for _, field := range fields {
-				if fuzzy.Match(query, strings.ToLower(field)) {
+				if strings.Contains(strings.ToLower(strings.TrimSpace(field)), query) {
 					matches = append(matches, r)
 					break
 				}
@@ -90,7 +89,6 @@ var serviceCmd = &cobra.Command{
 				cyan("Service #:"), yellow(utils.ToString(r.ServiceNumber)),
 				cyan("Account #:"), yellow(utils.ToString(r.AccountNumber)),
 			)
-
 		}
 	},
 }
