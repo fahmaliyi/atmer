@@ -1,12 +1,11 @@
 package cmd
 
 import (
-	"encoding/json"
 	"fmt"
-	"os"
 	"strings"
 
 	"github.com/fahmaliyi/atmer/internal/service"
+	"github.com/fahmaliyi/atmer/internal/storage"
 	"github.com/fahmaliyi/atmer/internal/utils"
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
@@ -29,15 +28,10 @@ var serviceCmd = &cobra.Command{
 			return
 		}
 
-		content, err := os.ReadFile(serviceFile)
+		store := storage.New[service.ServiceRecord](serviceFile)
+		records, err := store.Load()
 		if err != nil {
-			fmt.Printf("❌ Failed to read JSON file: %s\n", err)
-			return
-		}
-
-		var records []service.ServiceRecord
-		if err := json.Unmarshal(content, &records); err != nil {
-			fmt.Printf("❌ Failed to parse JSON: %s\n", err)
+			fmt.Printf("❌ Failed to load services: %s\n", err)
 			return
 		}
 
@@ -48,18 +42,19 @@ var serviceCmd = &cobra.Command{
 			bandwidthStr := fmt.Sprintf("%v", r.Bandwidth)
 
 			fields := []string{
-				r.Location,
-				r.WANIP,
-				r.LANIP,
-				r.ConnectionType,
-				bandwidthStr,
-				r.LineType,
-				fmt.Sprintf("%v", r.ServiceNumber),
-				fmt.Sprintf("%v", r.AccountNumber),
+				strings.ToLower(r.Location),
+				strings.ToLower(r.WANIP),
+				strings.ToLower(r.LANIP),
+				strings.ToLower(r.ConnectionType),
+				strings.ToLower(bandwidthStr),
+				strings.ToLower(r.LineType),
+				utils.ToString(r.ServiceNumber), // numeric - no lowercasing
+				utils.ToString(r.AccountNumber), // numeric - no lowercasing
 			}
 
 			for _, field := range fields {
-				if strings.Contains(strings.ToLower(strings.TrimSpace(field)), query) {
+				f := strings.TrimSpace(field)
+				if strings.Contains(f, query) {
 					matches = append(matches, r)
 					break
 				}
